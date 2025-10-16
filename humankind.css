@@ -1,0 +1,663 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0d1422;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+}
+
+.logo{
+  color: white;
+  font-size: 28px;
+}
+
+.sade{
+  width: 100%;
+}
+
+.nav-links > a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+.signup > a {
+  text-decoration: none;
+  color: #cfd0d3;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.signup > i {
+  color: #cfd0d3;
+}
+
+span > a:hover {
+  color: white;
+}
+
+span > i:hover {
+  color: white;
+}
+
+.btn5 {
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: 0;
+  background-color: #cfd0d3;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: #0d1422;
+  text-decoration: none;
+}
+.btn5:hover {
+  background-color: white;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.logo {
+  width: 20%;
+}
+
+.image-stack {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 230px 20px;
+  background-image: linear-gradient(to bottom, transparent 60%, #0d1422),
+    url("https://cdn.sega.co.uk/humankind-game/public/styles/2560/public/content/media/bg/image/KeyArt_Oceania_3840x2160%20%282%29.jpg?itok=kGN5xTjD");
+  background-size: cover;
+}
+
+.image-stack > a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 20px 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.image-stack > a:hover {
+  background-color: white;
+  color: black;
+}
+
+.promo {
+  width: 100%;
+  height: 600px;
+}
+
+.sec-2 {
+  background-image: url("https://cdn.sega.co.uk/humankind-game/public/styles/2560/public/content/media/bg/image/promo-bg.jpg?VersionId=SoE1qzO7afryFYuBvGhQvGMB_KfwNRQy&itok=ORiEETbA");
+  background-size: cover;
+}
+
+.items {
+  /* border: 2px solid black; */
+  /* width: 30%; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.fle {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 90px 60px;
+}
+
+.fle > div {
+  flex-basis: 50%;
+}
+
+h2 {
+  font-size: 41px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #222738;
+}
+
+.buy {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.buy2 {
+  /* text-indent: 50px; */
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  margin-left: 20px;
+}
+
+.buy2 li::marker {
+  content: "-";
+}
+
+.ma {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: black;
+  width: 40%;
+  text-align: center;
+  padding: 20px 40px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: ease-in;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+
+.pics {
+  border-radius: 5px 0 0 0;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.sec3 {
+  background-image: url("https://cdn.sega.co.uk/humankind-game/public/styles/2560/public/content/media/bg/image/second-promo-landscape.jpg?VersionId=MM2ymYGOCVVl0g0DEK95ra.ghKH5cSfP&itok=_LOYzIEt");
+  background-size: cover;
+  padding: 100px 50px;
+}
+.photo {
+  /* width: 360%; */
+}
+.man {
+  /* width: 29%; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-basis: 50%;
+}
+.lead-div {
+  display: flex;
+  justify-content: center;
+  /* gap: 400px; */
+}
+.leed {
+  /* width: 10%; */
+  flex-basis: 50%;
+}
+.top {
+  color: #f4f3ef;
+  font-family: "Rubik", sans-serif;
+  font-size: 41px;
+  font-weight: 500;
+}
+.top2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+.top3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.sign {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #131622;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+.sign:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 6px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  /* padding: 0px 200px; */
+}
+.group1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+}
+.group2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.top10 {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #f4f3ef;
+  text-align: center;
+}
+.sec4 {
+  background-color: #131622;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn10 {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.btna,
+.btnb {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.btna:hover {
+  background-color: white;
+  color: #131622;
+}
+.btnb:hover {
+  background-color: white;
+  color: #131622;
+}
+.cate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec5 {
+  background: url(https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/G2G-Background.jpg?VersionId=zwMCcUzGQJMDjtF4wRZbVeh5LhmtBOdZ&itok=RQ2y4fuN);
+  background-size: cover;
+  width: 100%;
+  padding: 5rem 10rem;
+}
+.picu {
+  width: 30%;
+}
+.oss {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.osj {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+.osb {
+  width: 30px;
+}
+.osh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid white;
+  width: 21%;
+  border-radius: 5px;
+  padding: 5px 5px;
+  gap: 10px;
+}
+.osh:hover {
+  background-color: white;
+}
+.sop {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+.foot {
+  background-color: #13223f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 100px;
+}
+.oft {
+  /* width: 500px; */
+  display: flex;
+  gap: 30px;
+}
+.tee {
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.hoo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tags {
+  /* width: 800px; */
+  display: flex;
+  justify-content: start center;
+  align-items: center;
+  gap: 20px;
+}
+.fot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hoo {
+  display: flex;
+  gap: 30px;
+}
+.fun button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  width: 15%;
+}
+.fun a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.fun a:hover {
+  text-decoration: underline;
+}
+.fun {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.sle img {
+  /* width: 400%; */
+  width: 100%;
+  height: auto;
+}
+.sle ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+  padding-left: 0;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sle {
+  display: flex;
+  gap: 20px;
+  border: 2px solid black;
+  /* width: 18%; */
+  height: 10%;
+  outline: 1px solid white;
+  background-color: white;
+}
+
+.sle>div{
+    flex-basis: 30%;
+}
+
+.sect {
+  background-color: #0d1422;
+  /* height: 50vh; */
+  border-top: 6px solid white;
+  padding: 40px;
+  position: relative;
+}
+
+.pot {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.combine1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.combine1 video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.combine1 h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+}
+
+.combine1 p {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  line-height: 20px;
+}
+
+.combine1 h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.stacked {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 30px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* place-items: center; */
+}
+
+.animesec {
+  background-image: url("https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/quote_bg.jpg?VersionId=6WLCQHMf.V5zlZf7861yHzFKqEJQ20qn&itok=EAvqfyl3");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animesec h2 {
+  color: white;
+}
+
+/* .anime-group{
+    animation-iteration-count: infinite;
+} */
+
+.anime1 {
+  animation-name: anime1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anime2 {
+  animation-name: anime2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anime3 {
+  animation-name: anime3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .combine1 h3 {
+    font-size: 10px;
+
+    top: 43%;
+  }
+
+  .lead-div{
+    flex-direction: column;
+  }
+
+  .fle{
+    flex-direction: column-reverse;
+  }
+
+  .sec4{
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width:425px) {
+    .stacked {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .foot{
+        padding: 50px 24px;
+    }
+    .fun button{
+        width: 100%;
+    }
+
+    .group1{
+        grid-template-columns: 1fr;
+    }
+    .group2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sec5{
+        background-position: center;
+    }
+}
